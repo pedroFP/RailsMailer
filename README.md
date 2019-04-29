@@ -12,6 +12,10 @@ This is because we don´t want to put our app on  heroku or other service so we 
 
 Paste the link in your **Sendinblue** *account profile* where it says **Web Site**
 
+## Don't forget the basic setups
+* run ``$ bundle``
+*  run ``$ rails db:migrate``
+
 ## Configuring SMTP
 
 According the tutorial where this project is made to, you can configure the smtp in ```production.rb``` or ```development.rb```, in this case I configured the smtp in the  ```development.rb``` file.
